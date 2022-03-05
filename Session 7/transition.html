@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TRANSITION</title>
+    <style>
+        .circle{
+            height: 100px;
+            width: 100px;
+            background-color: #db7093;
+            border-radius: 50%;
+            margin: 200px auto;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 13px;
+            -webkit-transition: width 1.5s, height 1.5s, -webkit-transform 1.5s; /* Safari */
+            transition: width 1.5s, height 1.5s, transform 1.5s;
+        }
+        .circle:hover {
+            width: 200px;
+            height: 200px;
+            background-color: #58257b;
+            -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="circle">TRANSITION</div>
+</body>
+</html>

@@ -6,10 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thumbnail</title>
     <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
         .thumbnail {
             border: 1px solid gray;
-            width: 24%;
-            margin: 20px auto;
+            width: calc(25% - 42px);
+            margin: 20px;
             text-align: center;
             transition: all 1.4s;
             -webkit-transition: all 1.4s;
@@ -32,9 +36,28 @@
     </style>
 </head>
 <body>
-    <div class="thumbnail">
-        <img src="images/box1.jpg" alt="products">
-        <h3>Product 01</h3>
+    <div class="container">
+        <div class="thumbnail">
+            <img src="images/box1.jpg" alt="products">
+            <h3>Product 01</h3>
+        </div>
+        <div class="thumbnail">
+            <img src="images/box1.jpg" alt="products">
+            <h3>Product 01</h3>
+        </div>
+        <div class="thumbnail">
+            <img src="images/box1.jpg" alt="products">
+            <h3>Product 01</h3>
+        </div>
+        <div class="thumbnail">
+            <img src="images/box1.jpg" alt="products">
+            <h3>Product 01</h3>
+        </div>
+        <div class="thumbnail">
+            <img src="images/box1.jpg" alt="products">
+            <h3>Product 01</h3>
+        </div>
     </div>
+    
 </body>
 </html>

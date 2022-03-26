@@ -27,3 +27,15 @@
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
     background: none;
 }
+
+/* section */
+.thumbnail a img {width: 100%; object-fit: cover;aspect-ratio: 4/3;}
+.carousel-inner .item img {width: 100%; aspect-ratio: 12/4; object-fit: cover;}
+
+
+
+
+
+
+
+

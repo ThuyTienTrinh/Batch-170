@@ -1,3 +1,29 @@
-.text-deepink {
-    color: deeppink;
+.navbar {border-radius: 0;}
+.navbar-inverse {
+    background-color: green;
+    border: none;
+}
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+    background-color: rgba(0, 128, 0, 0.795);
+  }
+
+.navbar-brand #logo {width: 130px;}
+.navbar-inverse .navbar-nav>li>a {
+    color: yellow;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: black;
+    background-color: yellow;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: yellow;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background: none;
 }
